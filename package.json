@@ -1,6 +1,6 @@
 {
   "name": "@backtrack/preset-style",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -34,8 +34,8 @@
     ]
   },
   "devDependencies": {
-    "@backtrack/core": "0.0.7",
-    "@backtrack/preset-preset": "0.0.3"
+    "@backtrack/core": "^0.1.1",
+    "@backtrack/preset-preset": "^0.1.0"
   },
   "dependencies": {
     "@chrisblossom/eslint-config": "^2.0.7",
