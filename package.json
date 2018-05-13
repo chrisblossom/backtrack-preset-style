@@ -1,10 +1,20 @@
 {
   "name": "@backtrack/preset-style",
   "version": "0.1.0",
-  "description": "",
-  "keywords": [],
+  "description": "backtrack preset for linting / styling node applications",
+  "keywords": [
+    "backtrack",
+    "preset",
+    "style",
+    "eslint",
+    "prettier",
+    "lint",
+    "format"
+  ],
   "license": "ISC",
-  "author": "",
+  "author": "Chris Blossom",
+  "repository": "chrisblossom/backtrack-preset-style",
+  "homepage": "https://github.com/chrisblossom/backtrack-preset-style",
   "engines": {
     "node": ">=6.9.0",
     "npm": ">=3.10.10",
@@ -34,8 +44,8 @@
     ]
   },
   "devDependencies": {
-    "@backtrack/core": "^0.1.1",
-    "@backtrack/preset-preset": "^0.1.0"
+    "@backtrack/core": "^0.1.9",
+    "@backtrack/preset-preset": "^0.1.5"
   },
   "dependencies": {
     "@chrisblossom/eslint-config": "^2.0.7",
