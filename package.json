@@ -12,9 +12,9 @@
     "format"
   ],
   "license": "ISC",
-  "author": "Chris Blossom",
   "repository": "chrisblossom/backtrack-preset-style",
   "homepage": "https://github.com/chrisblossom/backtrack-preset-style",
+  "author": "Chris Blossom",
   "engines": {
     "node": ">=6.9.0",
     "npm": ">=3.10.10",
@@ -28,7 +28,7 @@
     "format": "backtrack format",
     "lint": "backtrack lint",
     "lint.fix": "backtrack lint.fix",
-    "precommit": "lint-staged",
+    "precommit": "backtrack precommit",
     "prepublishOnly": "npm run lint",
     "prepush": "npm run lint"
   },

@@ -37,7 +37,7 @@
             "format": "backtrack format",
             "lint": "backtrack lint",
             "lint.fix": "backtrack lint.fix",
-            "precommit": "lint-staged",
+            "precommit": "backtrack precommit",
             "prepublishOnly": "npm run lint",
             "prepush": "npm run lint",
             "test": null

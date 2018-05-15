@@ -10,7 +10,8 @@
 
 *   Add [`prettier`](https://prettier.io/) with [customized options](./files/prettier.js)
 *   Add [`eslint`](https://eslint.org/) with [customized options](./files/eslint.js)
-*   Add [`husky`](https://github.com/typicode/husky/) / [lint-staged](https://github.com/okonet/lint-staged) precommit formatting hook
+*   Add [`husky`](https://github.com/typicode/husky/) / [lint-staged](https://github.com/okonet/lint-staged)
+*   Add `precommit`, `prepush` and `prepublishOnly` linting git hooks
 
 ## Installation
 
