@@ -30,7 +30,11 @@
     "lint.fix": "backtrack lint.fix",
     "precommit": "backtrack precommit",
     "prepublishOnly": "backtrack prepublishOnly",
-    "prepush": "backtrack prepush"
+    "prepush": "backtrack prepush",
+    "test": "backtrack test",
+    "test.ci": "backtrack test.ci",
+    "test.update": "backtrack test.update",
+    "test.watch": "backtrack test.watch"
   },
   "lint-staged": {
     "*.{js,md,json}": [
@@ -44,8 +48,8 @@
     ]
   },
   "devDependencies": {
-    "@backtrack/core": "^0.1.11",
-    "@backtrack/preset-preset": "^0.1.6"
+    "@backtrack/core": "^0.1.13",
+    "@backtrack/preset-preset": "^0.1.8"
   },
   "dependencies": {
     "@chrisblossom/eslint-config": "^2.0.7",

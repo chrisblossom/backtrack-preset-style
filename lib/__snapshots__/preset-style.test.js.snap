@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`preset returns expected config 1`] = `
+Object {
+  "files": Object {
+    "dest": Object {
+      "absolute": Object {
+        ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
+        ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
+        ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
+        ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
+      },
+      "allowChanges": Object {
+        ".eslintignore": false,
+        ".eslintrc.js": false,
+        ".prettierignore": false,
+        ".prettierrc.js": false,
+      },
+      "files": Array [
+        ".eslintrc.js",
+        ".eslintignore",
+        ".prettierrc.js",
+        ".prettierignore",
+      ],
+      "hash": Object {
+        ".eslintignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+        ".eslintrc.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
+        ".prettierignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+        ".prettierrc.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
+      },
+      "ignoreUpdates": Object {
+        ".eslintignore": false,
+        ".eslintrc.js": false,
+        ".prettierignore": false,
+        ".prettierrc.js": false,
+      },
+    },
+    "makeDirs": Array [
+      "dist",
+      "src",
+    ],
+    "src": Object {
+      "absolute": Object {
+        "lib/files/eslint.js": "<PROJECT_ROOT>/lib/files/eslint.js",
+        "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
+        "lib/files/prettier.js": "<PROJECT_ROOT>/lib/files/prettier.js",
+      },
+      "files": Array [
+        "lib/files/eslint.js",
+        "lib/files/ignore",
+        "lib/files/prettier.js",
+        "lib/files/ignore",
+      ],
+      "hash": Object {
+        "lib/files/eslint.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
+        "lib/files/ignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+        "lib/files/prettier.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
+      },
+    },
+  },
+  "format": Array [
+    "prettier **/*.{js,md,json} --write",
+  ],
+  "lint": Array [
+    "eslint .",
+  ],
+  "lint.fix": Array [
+    "eslint --fix .",
+  ],
+  "packageJson": Array [
+    Object {
+      "lint-staged": Object {
+        "*.{js,md,json}": Array [
+          "prettier --write",
+          "git add",
+        ],
+      },
+    },
+  ],
+  "precommit": Array [
+    "lint-staged",
+  ],
+  "prepublishOnly": Array [
+    "backtrack lint",
+  ],
+  "prepush": Array [
+    "backtrack lint",
+  ],
+  "resolve": Object {
+    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
+  },
+}
+`;
