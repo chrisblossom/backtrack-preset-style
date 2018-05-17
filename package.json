@@ -48,8 +48,8 @@
     ]
   },
   "devDependencies": {
-    "@backtrack/core": "^0.1.13",
-    "@backtrack/preset-preset": "^0.1.8"
+    "@backtrack/core": "^0.1.14",
+    "@backtrack/preset-preset": "^0.1.9"
   },
   "dependencies": {
     "@chrisblossom/eslint-config": "^2.0.7",
