@@ -22,12 +22,6 @@ Object {
         ".prettierrc.js",
         ".prettierignore",
       ],
-      "hash": Object {
-        ".eslintignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
-        ".eslintrc.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
-        ".prettierignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
-        ".prettierrc.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
-      },
       "ignoreUpdates": Object {
         ".eslintignore": false,
         ".eslintrc.js": false,
