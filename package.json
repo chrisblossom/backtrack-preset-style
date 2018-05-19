@@ -33,7 +33,8 @@
     "prepush": "backtrack prepush",
     "test": "backtrack test",
     "test.ci": "backtrack test.ci",
-    "test.update": "backtrack test.update",
+    "test.ci-pretest": "backtrack test.ci-pretest",
+    "test.update": "jest --updateSnapshot",
     "test.watch": "jest --watch"
   },
   "lint-staged": {
@@ -49,13 +50,13 @@
   },
   "devDependencies": {
     "@backtrack/core": "^0.1.17",
-    "@backtrack/preset-preset": "^0.1.9"
+    "@backtrack/preset-preset": "^0.1.15"
   },
   "dependencies": {
     "@chrisblossom/eslint-config": "^2.0.7",
     "eslint": "^4.19.1",
     "husky": "^0.14.3",
-    "lint-staged": "^7.1.0",
+    "lint-staged": "^7.1.1",
     "prettier": "^1.12.1"
   }
 }
