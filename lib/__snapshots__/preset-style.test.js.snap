@@ -54,13 +54,13 @@ Object {
       "hash": Object {
         "lib/files/eslint.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
         "lib/files/ignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
-        "lib/files/lint-staged.js": "8a7ec3d8ebcd02e8f7fb21acbc75d472d853dadfbe6151a48032fc9d1e97cc97",
+        "lib/files/lint-staged.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
         "lib/files/prettier.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
       },
     },
   },
   "format": Array [
-    "prettier **/*.{js,md,json} --write",
+    "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
   ],
   "lint": Array [
     "eslint .",
