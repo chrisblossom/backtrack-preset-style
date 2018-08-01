@@ -7,12 +7,14 @@ Object {
       "absolute": Object {
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
+        ".lintstagedrc.js": "<PROJECT_ROOT>/.lintstagedrc.js",
         ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
         ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
       },
       "allowChanges": Object {
         ".eslintignore": false,
         ".eslintrc.js": false,
+        ".lintstagedrc.js": false,
         ".prettierignore": false,
         ".prettierrc.js": false,
       },
@@ -21,10 +23,12 @@ Object {
         ".eslintignore",
         ".prettierrc.js",
         ".prettierignore",
+        ".lintstagedrc.js",
       ],
       "ignoreUpdates": Object {
         ".eslintignore": false,
         ".eslintrc.js": false,
+        ".lintstagedrc.js": false,
         ".prettierignore": false,
         ".prettierrc.js": false,
       },
@@ -37,6 +41,7 @@ Object {
       "absolute": Object {
         "lib/files/eslint.js": "<PROJECT_ROOT>/lib/files/eslint.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
+        "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
         "lib/files/prettier.js": "<PROJECT_ROOT>/lib/files/prettier.js",
       },
       "files": Array [
@@ -44,10 +49,12 @@ Object {
         "lib/files/ignore",
         "lib/files/prettier.js",
         "lib/files/ignore",
+        "lib/files/lint-staged.js",
       ],
       "hash": Object {
         "lib/files/eslint.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
         "lib/files/ignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+        "lib/files/lint-staged.js": "8a7ec3d8ebcd02e8f7fb21acbc75d472d853dadfbe6151a48032fc9d1e97cc97",
         "lib/files/prettier.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
       },
     },
@@ -60,16 +67,6 @@ Object {
   ],
   "lint.fix": Array [
     "eslint --fix .",
-  ],
-  "packageJson": Array [
-    Object {
-      "lint-staged": Object {
-        "*.{js,md,json}": Array [
-          "prettier --write",
-          "git add",
-        ],
-      },
-    },
   ],
   "precommit": Array [
     "lint-staged",
