@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`preset returns expected config 1`] = `
+exports[`option: node = true 1`] = `
 Object {
   "files": Object {
     "dest": Object {
@@ -22,11 +22,104 @@ Object {
       },
       "files": Array [
         ".huskyrc.js",
-        ".eslintrc.js",
         ".eslintignore",
         ".prettierrc.js",
         ".prettierignore",
         ".lintstagedrc.js",
+        ".eslintrc.js",
+      ],
+      "ignoreUpdates": Object {
+        ".eslintignore": false,
+        ".eslintrc.js": false,
+        ".huskyrc.js": false,
+        ".lintstagedrc.js": false,
+        ".prettierignore": false,
+        ".prettierrc.js": false,
+      },
+    },
+    "makeDirs": Array [
+      "dist",
+      "src",
+    ],
+    "src": Object {
+      "absolute": Object {
+        "lib/files/eslint-node.js": "<PROJECT_ROOT>/lib/files/eslint-node.js",
+        "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
+        "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
+        "lib/files/prettier.js": "<PROJECT_ROOT>/lib/files/prettier.js",
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
+      },
+      "files": Array [
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
+        "lib/files/ignore",
+        "lib/files/prettier.js",
+        "lib/files/ignore",
+        "lib/files/lint-staged.js",
+        "lib/files/eslint-node.js",
+      ],
+      "hash": Object {
+        "lib/files/eslint-node.js": "577797f39cbdc5d8242dc8da8564a2faca5ed926b1c8f651167240d790034ee8",
+        "lib/files/ignore": "df678e7a458aba93c115564cfd4a701bdf4397e943de8745d37f2798c1dc5c11",
+        "lib/files/lint-staged.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
+        "lib/files/prettier.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "f7b6f2abb505e7b45fb028edb1a032b9fb7c997e4d563fdd0567beb582f8da76",
+      },
+    },
+  },
+  "format": Array [
+    "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
+  ],
+  "git-pre-commit": Array [
+    [Function noop],
+    "lint-staged",
+  ],
+  "git-pre-push": Array [
+    [Function noop],
+    "backtrack lint",
+  ],
+  "lint": Array [
+    "eslint .",
+  ],
+  "lint.fix": Array [
+    "eslint --fix .",
+  ],
+  "prepublishOnly": Array [
+    "backtrack lint",
+  ],
+  "resolve": Object {
+    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
+    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
+  },
+}
+`;
+
+exports[`preset returns expected config no options 1`] = `
+Object {
+  "files": Object {
+    "dest": Object {
+      "absolute": Object {
+        ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
+        ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
+        ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
+        ".lintstagedrc.js": "<PROJECT_ROOT>/.lintstagedrc.js",
+        ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
+        ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
+      },
+      "allowChanges": Object {
+        ".eslintignore": false,
+        ".eslintrc.js": false,
+        ".huskyrc.js": false,
+        ".lintstagedrc.js": false,
+        ".prettierignore": false,
+        ".prettierrc.js": false,
+      },
+      "files": Array [
+        ".huskyrc.js",
+        ".eslintignore",
+        ".prettierrc.js",
+        ".prettierignore",
+        ".lintstagedrc.js",
+        ".eslintrc.js",
       ],
       "ignoreUpdates": Object {
         ".eslintignore": false,
@@ -51,11 +144,11 @@ Object {
       },
       "files": Array [
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
-        "lib/files/eslint.js",
         "lib/files/ignore",
         "lib/files/prettier.js",
         "lib/files/ignore",
         "lib/files/lint-staged.js",
+        "lib/files/eslint.js",
       ],
       "hash": Object {
         "lib/files/eslint.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
