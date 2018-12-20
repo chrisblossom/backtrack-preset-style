@@ -1,10 +1,8 @@
 /**
  * This file is managed by backtrack
  *
- * source: @backtrack/preset-style
+ * source: @backtrack/preset-git-hooks
  * namespace: husky
- *
- * Configure via backtrack.config.husky
  *
  * DO NOT MODIFY
  */
@@ -16,7 +14,10 @@ const Backtrack = require('@backtrack/core');
 const { configManager } = new Backtrack();
 
 const husky = {
-    hooks: {},
+    hooks: {
+        'pre-commit': 'npm run git-pre-commit',
+        'pre-push': 'npm run git-pre-push',
+    },
 };
 
 module.exports = configManager({
