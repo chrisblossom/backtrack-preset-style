@@ -2,11 +2,22 @@
 
 exports[`preset returns expected config 1`] = `
 Object {
+  "config": Array [
+    Object {
+      "husky": Object {
+        "hooks": Object {
+          "pre-commit": "lint-staged",
+          "pre-push": "backtrack lint",
+        },
+      },
+    },
+  ],
   "files": Object {
     "dest": Object {
       "absolute": Object {
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
+        ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
         ".lintstagedrc.js": "<PROJECT_ROOT>/.lintstagedrc.js",
         ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
         ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
@@ -14,6 +25,7 @@ Object {
       "allowChanges": Object {
         ".eslintignore": false,
         ".eslintrc.js": false,
+        ".huskyrc.js": false,
         ".lintstagedrc.js": false,
         ".prettierignore": false,
         ".prettierrc.js": false,
@@ -24,10 +36,12 @@ Object {
         ".prettierrc.js",
         ".prettierignore",
         ".lintstagedrc.js",
+        ".huskyrc.js",
       ],
       "ignoreUpdates": Object {
         ".eslintignore": false,
         ".eslintrc.js": false,
+        ".huskyrc.js": false,
         ".lintstagedrc.js": false,
         ".prettierignore": false,
         ".prettierrc.js": false,
@@ -40,6 +54,7 @@ Object {
     "src": Object {
       "absolute": Object {
         "lib/files/eslint.js": "<PROJECT_ROOT>/lib/files/eslint.js",
+        "lib/files/husky.js": "<PROJECT_ROOT>/lib/files/husky.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
         "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
         "lib/files/prettier.js": "<PROJECT_ROOT>/lib/files/prettier.js",
@@ -50,10 +65,12 @@ Object {
         "lib/files/prettier.js",
         "lib/files/ignore",
         "lib/files/lint-staged.js",
+        "lib/files/husky.js",
       ],
       "hash": Object {
         "lib/files/eslint.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
-        "lib/files/ignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+        "lib/files/husky.js": "a527f64abe04bd4238f2fe19b2b48d7224ac70c67b05f7af897f7cd98564a53a",
+        "lib/files/ignore": "df678e7a458aba93c115564cfd4a701bdf4397e943de8745d37f2798c1dc5c11",
         "lib/files/lint-staged.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
         "lib/files/prettier.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
       },
@@ -68,13 +85,7 @@ Object {
   "lint.fix": Array [
     "eslint --fix .",
   ],
-  "precommit": Array [
-    "lint-staged",
-  ],
   "prepublishOnly": Array [
-    "backtrack lint",
-  ],
-  "prepush": Array [
     "backtrack lint",
   ],
   "resolve": Object {
