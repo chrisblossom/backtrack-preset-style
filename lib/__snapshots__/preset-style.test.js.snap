@@ -6,8 +6,8 @@ Object {
     Object {
       "husky": Object {
         "hooks": Object {
-          "pre-commit": "lint-staged",
-          "pre-push": "backtrack lint",
+          "pre-commit": "npm run git-pre-commit",
+          "pre-push": "npm run git-pre-push",
         },
       },
     },
@@ -69,7 +69,7 @@ Object {
       ],
       "hash": Object {
         "lib/files/eslint.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
-        "lib/files/husky.js": "a527f64abe04bd4238f2fe19b2b48d7224ac70c67b05f7af897f7cd98564a53a",
+        "lib/files/husky.js": "4c3e23f463f138dd4f76e4285b396e892c5d29216d03b001c38d9478db25d92e",
         "lib/files/ignore": "df678e7a458aba93c115564cfd4a701bdf4397e943de8745d37f2798c1dc5c11",
         "lib/files/lint-staged.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
         "lib/files/prettier.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
@@ -78,6 +78,12 @@ Object {
   },
   "format": Array [
     "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
+  ],
+  "git-pre-commit": Array [
+    "lint-staged",
+  ],
+  "git-pre-push": Array [
+    "backtrack lint",
   ],
   "lint": Array [
     "eslint .",
