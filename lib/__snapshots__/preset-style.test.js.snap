@@ -78,10 +78,10 @@ Object {
     "backtrack lint",
   ],
   "lint": Array [
-    "eslint .",
+    "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
   ],
   "lint.fix": Array [
-    "eslint --fix .",
+    "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
   ],
   "prepublishOnly": Array [
     "backtrack lint",
@@ -171,10 +171,10 @@ Object {
     "backtrack lint",
   ],
   "lint": Array [
-    "eslint .",
+    "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
   ],
   "lint.fix": Array [
-    "eslint --fix .",
+    "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
   ],
   "prepublishOnly": Array [
     "backtrack lint",
