@@ -70,7 +70,7 @@ Object {
     },
   },
   "format": Array [
-    "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
   "git-pre-commit": Array [
     [Function noop],
@@ -166,7 +166,7 @@ Object {
     },
   },
   "format": Array [
-    "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
   "git-pre-commit": Array [
     [Function noop],
@@ -284,7 +284,7 @@ Object {
     },
   },
   "format": Array [
-    "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
   "git-pre-commit": Array [
     [Function noop],
@@ -380,7 +380,7 @@ Object {
     },
   },
   "format": Array [
-    "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
   "git-pre-commit": Array [
     [Function noop],
