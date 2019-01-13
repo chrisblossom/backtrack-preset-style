@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`option: node = true 1`] = `
+exports[`option: node = true 6+ 1`] = `
 Object {
+  "config": Array [
+    Object {},
+  ],
   "files": Object {
     "dest": Object {
       "absolute": Object {
@@ -23,10 +26,10 @@ Object {
       "files": Array [
         ".huskyrc.js",
         ".eslintignore",
-        ".prettierrc.js",
         ".prettierignore",
         ".lintstagedrc.js",
         ".eslintrc.js",
+        ".prettierrc.js",
       ],
       "ignoreUpdates": Object {
         ".eslintignore": false,
@@ -52,16 +55,16 @@ Object {
       "files": Array [
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
         "lib/files/ignore",
-        "lib/files/prettier-es5.js",
         "lib/files/ignore",
         "lib/files/lint-staged.js",
         "lib/files/eslint-node.js",
+        "lib/files/prettier-es5.js",
       ],
       "hash": Object {
         "lib/files/eslint-node.js": "577797f39cbdc5d8242dc8da8564a2faca5ed926b1c8f651167240d790034ee8",
         "lib/files/ignore": "df678e7a458aba93c115564cfd4a701bdf4397e943de8745d37f2798c1dc5c11",
         "lib/files/lint-staged.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
-        "lib/files/prettier-es5.js": "63f24c5969185c913100d45a6b08b3e7abc977dc54a60ec6592b02cfff15ee2a",
+        "lib/files/prettier-es5.js": "c179f1962a1c7f0500cba01f9a68a3234882096fb7b3c2385b9d4779e4aebb83",
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "f7b6f2abb505e7b45fb028edb1a032b9fb7c997e4d563fdd0567beb582f8da76",
       },
     },
@@ -93,8 +96,11 @@ Object {
 }
 `;
 
-exports[`preset returns expected config no options 1`] = `
+exports[`option: node = true 8+ 1`] = `
 Object {
+  "config": Array [
+    Object {},
+  ],
   "files": Object {
     "dest": Object {
       "absolute": Object {
@@ -116,10 +122,128 @@ Object {
       "files": Array [
         ".huskyrc.js",
         ".eslintignore",
-        ".prettierrc.js",
         ".prettierignore",
         ".lintstagedrc.js",
         ".eslintrc.js",
+        ".prettierrc.js",
+      ],
+      "ignoreUpdates": Object {
+        ".eslintignore": false,
+        ".eslintrc.js": false,
+        ".huskyrc.js": false,
+        ".lintstagedrc.js": false,
+        ".prettierignore": false,
+        ".prettierrc.js": false,
+      },
+    },
+    "makeDirs": Array [
+      "dist",
+      "src",
+    ],
+    "src": Object {
+      "absolute": Object {
+        "lib/files/eslint-node.js": "<PROJECT_ROOT>/lib/files/eslint-node.js",
+        "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
+        "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
+        "lib/files/prettier.js": "<PROJECT_ROOT>/lib/files/prettier.js",
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
+      },
+      "files": Array [
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
+        "lib/files/ignore",
+        "lib/files/ignore",
+        "lib/files/lint-staged.js",
+        "lib/files/eslint-node.js",
+        "lib/files/prettier.js",
+      ],
+      "hash": Object {
+        "lib/files/eslint-node.js": "577797f39cbdc5d8242dc8da8564a2faca5ed926b1c8f651167240d790034ee8",
+        "lib/files/ignore": "df678e7a458aba93c115564cfd4a701bdf4397e943de8745d37f2798c1dc5c11",
+        "lib/files/lint-staged.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
+        "lib/files/prettier.js": "37f4f9d099f0dc6e9d2018d8a0c98cc8fc21245232506d0cd57135f84858a737",
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "f7b6f2abb505e7b45fb028edb1a032b9fb7c997e4d563fdd0567beb582f8da76",
+      },
+    },
+  },
+  "format": Array [
+    "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
+  ],
+  "git-pre-commit": Array [
+    [Function noop],
+    "lint-staged",
+  ],
+  "git-pre-push": Array [
+    [Function noop],
+    "backtrack lint",
+  ],
+  "lint": Array [
+    "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
+  ],
+  "lint.fix": Array [
+    "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+  ],
+  "prepublishOnly": Array [
+    "backtrack lint",
+  ],
+  "resolve": Object {
+    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
+    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
+  },
+}
+`;
+
+exports[`preset returns expected config no options 6+ 1`] = `
+Object {
+  "config": Array [
+    Object {
+      "prettier": Object {
+        "overrides": Array [
+          Object {
+            "excludeFiles": "*/**",
+            "files": "*.js",
+            "options": Object {
+              "trailingComma": "es5",
+            },
+          },
+          Object {
+            "files": Array [
+              "lib/**/*.js",
+              "app/**/*.js",
+              "**/__sandbox__/**/*.js",
+            ],
+            "options": Object {
+              "trailingComma": "es5",
+            },
+          },
+        ],
+      },
+    },
+  ],
+  "files": Object {
+    "dest": Object {
+      "absolute": Object {
+        ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
+        ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
+        ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
+        ".lintstagedrc.js": "<PROJECT_ROOT>/.lintstagedrc.js",
+        ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
+        ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
+      },
+      "allowChanges": Object {
+        ".eslintignore": false,
+        ".eslintrc.js": false,
+        ".huskyrc.js": false,
+        ".lintstagedrc.js": false,
+        ".prettierignore": false,
+        ".prettierrc.js": false,
+      },
+      "files": Array [
+        ".huskyrc.js",
+        ".eslintignore",
+        ".prettierignore",
+        ".lintstagedrc.js",
+        ".eslintrc.js",
+        ".prettierrc.js",
       ],
       "ignoreUpdates": Object {
         ".eslintignore": false,
@@ -139,22 +263,118 @@ Object {
         "lib/files/eslint.js": "<PROJECT_ROOT>/lib/files/eslint.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
         "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
-        "lib/files/prettier-es5.js": "<PROJECT_ROOT>/lib/files/prettier-es5.js",
+        "lib/files/prettier.js": "<PROJECT_ROOT>/lib/files/prettier.js",
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
       },
       "files": Array [
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
         "lib/files/ignore",
-        "lib/files/prettier-es5.js",
         "lib/files/ignore",
         "lib/files/lint-staged.js",
         "lib/files/eslint.js",
+        "lib/files/prettier.js",
       ],
       "hash": Object {
         "lib/files/eslint.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
         "lib/files/ignore": "df678e7a458aba93c115564cfd4a701bdf4397e943de8745d37f2798c1dc5c11",
         "lib/files/lint-staged.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
-        "lib/files/prettier-es5.js": "63f24c5969185c913100d45a6b08b3e7abc977dc54a60ec6592b02cfff15ee2a",
+        "lib/files/prettier.js": "37f4f9d099f0dc6e9d2018d8a0c98cc8fc21245232506d0cd57135f84858a737",
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "f7b6f2abb505e7b45fb028edb1a032b9fb7c997e4d563fdd0567beb582f8da76",
+      },
+    },
+  },
+  "format": Array [
+    "prettier **/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml} --write",
+  ],
+  "git-pre-commit": Array [
+    [Function noop],
+    "lint-staged",
+  ],
+  "git-pre-push": Array [
+    [Function noop],
+    "backtrack lint",
+  ],
+  "lint": Array [
+    "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
+  ],
+  "lint.fix": Array [
+    "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+  ],
+  "prepublishOnly": Array [
+    "backtrack lint",
+  ],
+  "resolve": Object {
+    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
+    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
+  },
+}
+`;
+
+exports[`preset returns expected config no options 8+ 1`] = `
+Object {
+  "config": Array [
+    Object {},
+  ],
+  "files": Object {
+    "dest": Object {
+      "absolute": Object {
+        ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
+        ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
+        ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
+        ".lintstagedrc.js": "<PROJECT_ROOT>/.lintstagedrc.js",
+        ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
+        ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
+      },
+      "allowChanges": Object {
+        ".eslintignore": false,
+        ".eslintrc.js": false,
+        ".huskyrc.js": false,
+        ".lintstagedrc.js": false,
+        ".prettierignore": false,
+        ".prettierrc.js": false,
+      },
+      "files": Array [
+        ".huskyrc.js",
+        ".eslintignore",
+        ".prettierignore",
+        ".lintstagedrc.js",
+        ".eslintrc.js",
+        ".prettierrc.js",
+      ],
+      "ignoreUpdates": Object {
+        ".eslintignore": false,
+        ".eslintrc.js": false,
+        ".huskyrc.js": false,
+        ".lintstagedrc.js": false,
+        ".prettierignore": false,
+        ".prettierrc.js": false,
+      },
+    },
+    "makeDirs": Array [
+      "dist",
+      "src",
+    ],
+    "src": Object {
+      "absolute": Object {
+        "lib/files/eslint.js": "<PROJECT_ROOT>/lib/files/eslint.js",
+        "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
+        "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
+        "lib/files/prettier.js": "<PROJECT_ROOT>/lib/files/prettier.js",
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
+      },
+      "files": Array [
+        "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
+        "lib/files/ignore",
+        "lib/files/ignore",
+        "lib/files/lint-staged.js",
+        "lib/files/eslint.js",
+        "lib/files/prettier.js",
+      ],
+      "hash": Object {
+        "lib/files/eslint.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
+        "lib/files/ignore": "df678e7a458aba93c115564cfd4a701bdf4397e943de8745d37f2798c1dc5c11",
+        "lib/files/lint-staged.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
+        "lib/files/prettier.js": "37f4f9d099f0dc6e9d2018d8a0c98cc8fc21245232506d0cd57135f84858a737",
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "f7b6f2abb505e7b45fb028edb1a032b9fb7c997e4d563fdd0567beb582f8da76",
       },
     },
