@@ -37,15 +37,15 @@
     "test.watch": "jest --watch"
   },
   "devDependencies": {
-    "@backtrack/core": "^0.1.23",
+    "@backtrack/core": "^0.1.25",
     "@backtrack/preset-preset": "^0.3.16"
   },
   "dependencies": {
     "@backtrack/preset-git-hooks": "^0.1.1",
     "@chrisblossom/eslint-config": "^4.0.9",
-    "eslint": "^5.12.1",
-    "lint-staged": "^8.1.1",
-    "prettier": "^1.16.3",
+    "eslint": "^5.13.0",
+    "lint-staged": "^8.1.4",
+    "prettier": "^1.16.4",
     "read-pkg": "^4.0.1",
     "semver": "^5.6.0"
   }
