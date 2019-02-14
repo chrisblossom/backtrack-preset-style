@@ -29,7 +29,26 @@
 module.exports = {
     presets: ['@backtrack/style'],
 
-    // disallow unsupported javascript syntax targeting the node version in package.json engines
-    presets: [['@backtrack/style', { node: true }]],
+    presets: [
+        [
+            '@backtrack/style',
+            {
+                /**
+                 * Disallow unsupported javascript syntax targeting
+                 *   the node version in package.json engines
+                 *
+                 * default: false
+                 */
+                node: true,
+
+                /**
+                 * Disable settings unnecessary in applications
+                 *
+                 * default: false
+                 */
+                isApp: true,
+            },
+        ],
+    ],
 };
 ```
