@@ -16,8 +16,7 @@
   "homepage": "https://github.com/chrisblossom/backtrack-preset-style",
   "author": "Chris Blossom",
   "engines": {
-    "node": ">=6.9.0",
-    "npm": ">=3.10.10"
+    "node": ">=6.9.0"
   },
   "files": [
     "lib/"
@@ -38,12 +37,12 @@
   },
   "devDependencies": {
     "@backtrack/core": "^0.1.25",
-    "@backtrack/preset-preset": "^0.3.16"
+    "@backtrack/preset-preset": "^0.3.17"
   },
   "dependencies": {
     "@backtrack/preset-git-hooks": "^0.1.1",
     "@chrisblossom/eslint-config": "^4.0.9",
-    "eslint": "^5.13.0",
+    "eslint": "^5.14.1",
     "lint-staged": "^8.1.4",
     "prettier": "^1.16.4",
     "read-pkg": "^4.0.1",
