@@ -41,11 +41,11 @@
   },
   "dependencies": {
     "@backtrack/preset-git-hooks": "^0.1.1",
-    "@chrisblossom/eslint-config": "^4.0.9",
-    "eslint": "^5.14.1",
-    "lint-staged": "^8.1.4",
+    "@chrisblossom/eslint-config": "^4.0.10",
+    "eslint": "^5.15.3",
+    "lint-staged": "^8.1.5",
     "prettier": "^1.16.4",
     "read-pkg": "^4.0.1",
-    "semver": "^5.6.0"
+    "semver": "^6.0.0"
   }
 }
