@@ -117,10 +117,6 @@ Object {
   "lint.fix": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
   ],
-  "resolve": Object {
-    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
-    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
-  },
 }
 `;
 
@@ -213,10 +209,6 @@ Object {
   "prepublishOnly": Array [
     "backtrack lint",
   ],
-  "resolve": Object {
-    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
-    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
-  },
 }
 `;
 
@@ -309,10 +301,6 @@ Object {
   "prepublishOnly": Array [
     "backtrack lint",
   ],
-  "resolve": Object {
-    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
-    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
-  },
 }
 `;
 
@@ -436,10 +424,6 @@ Object {
   "prepublishOnly": Array [
     "backtrack lint",
   ],
-  "resolve": Object {
-    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
-    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
-  },
 }
 `;
 
@@ -532,9 +516,5 @@ Object {
   "prepublishOnly": Array [
     "backtrack lint",
   ],
-  "resolve": Object {
-    "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
-    "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
-  },
 }
 `;
