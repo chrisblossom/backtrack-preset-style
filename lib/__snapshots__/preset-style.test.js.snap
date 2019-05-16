@@ -3,38 +3,7 @@
 exports[`option: isApp = true 1`] = `
 Object {
   "config": Array [
-    Object {
-      "prettier": Object {
-        "overrides": Array [
-          Object {
-            "excludeFiles": Array [
-              "*/**",
-              "*/.**",
-            ],
-            "files": Array [
-              "*.js",
-              ".*.js",
-            ],
-            "options": Object {
-              "trailingComma": "es5",
-            },
-          },
-          Object {
-            "files": Array [
-              "lib/**/*.js",
-              "lib/**/.*.js",
-              "app/**/*.js",
-              "app/**/.*.js",
-              "**/__sandbox__/**/*.js",
-              "**/__sandbox__/**/.*.js",
-            ],
-            "options": Object {
-              "trailingComma": "es5",
-            },
-          },
-        ],
-      },
-    },
+    Object {},
   ],
   "files": Object {
     "dest": Object {
@@ -169,7 +138,7 @@ Object {
         "lib/files/eslint-node.js": "<PROJECT_ROOT>/lib/files/eslint-node.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
         "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
-        "lib/files/prettier-es5.js": "<PROJECT_ROOT>/lib/files/prettier-es5.js",
+        "lib/files/prettier.js": "<PROJECT_ROOT>/lib/files/prettier.js",
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
       },
       "files": Array [
@@ -178,13 +147,13 @@ Object {
         "lib/files/ignore",
         "lib/files/lint-staged.js",
         "lib/files/eslint-node.js",
-        "lib/files/prettier-es5.js",
+        "lib/files/prettier.js",
       ],
       "hash": Object {
         "lib/files/eslint-node.js": "d29084d1d0cbcc3982525eae881e6e797d1c64be4c6937ab43fb134750c6207d",
         "lib/files/ignore": "df678e7a458aba93c115564cfd4a701bdf4397e943de8745d37f2798c1dc5c11",
         "lib/files/lint-staged.js": "5398a6883c9332018fa32fdac8989989eef1eca27c0e2d92ccf35bb13381e7e7",
-        "lib/files/prettier-es5.js": "29d7fb716853e7a327670bc0534e732d1676cfbab60703ed15660df8a4d1c693",
+        "lib/files/prettier.js": "f76ed92bea30dd6cb22675cedc0044614a9220be9b74859b5750a54ef4745a99",
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js": "d41c387b0d3f16730829f444ef7bc0665cc52e92847c548c5166ebb7597bc69a",
       },
     },
@@ -307,38 +276,7 @@ Object {
 exports[`preset returns expected config no options 6+ 1`] = `
 Object {
   "config": Array [
-    Object {
-      "prettier": Object {
-        "overrides": Array [
-          Object {
-            "excludeFiles": Array [
-              "*/**",
-              "*/.**",
-            ],
-            "files": Array [
-              "*.js",
-              ".*.js",
-            ],
-            "options": Object {
-              "trailingComma": "es5",
-            },
-          },
-          Object {
-            "files": Array [
-              "lib/**/*.js",
-              "lib/**/.*.js",
-              "app/**/*.js",
-              "app/**/.*.js",
-              "**/__sandbox__/**/*.js",
-              "**/__sandbox__/**/.*.js",
-            ],
-            "options": Object {
-              "trailingComma": "es5",
-            },
-          },
-        ],
-      },
-    },
+    Object {},
   ],
   "files": Object {
     "dest": Object {
