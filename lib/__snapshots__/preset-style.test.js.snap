@@ -116,6 +116,7 @@ Object {
   ],
   "lint.fix": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
 }
 `;
@@ -205,6 +206,7 @@ Object {
   ],
   "lint.fix": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
   "prepublishOnly": Array [
     "backtrack lint",
@@ -297,6 +299,7 @@ Object {
   ],
   "lint.fix": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
   "prepublishOnly": Array [
     "backtrack lint",
@@ -420,6 +423,7 @@ Object {
   ],
   "lint.fix": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
   "prepublishOnly": Array [
     "backtrack lint",
@@ -512,6 +516,7 @@ Object {
   ],
   "lint.fix": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --write",
   ],
   "prepublishOnly": Array [
     "backtrack lint",
