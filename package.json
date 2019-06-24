@@ -1,6 +1,6 @@
 {
   "name": "@backtrack/preset-style",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "backtrack preset for linting / styling node applications",
   "keywords": [
     "backtrack",
