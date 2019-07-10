@@ -45,10 +45,10 @@
     "@backtrack/preset-preset": "^0.6.0"
   },
   "dependencies": {
-    "@backtrack/preset-git-hooks": "^0.2.0",
+    "@backtrack/preset-git-hooks": "^0.2.2",
     "@chrisblossom/eslint-config": "^6.0.10",
     "eslint": "^5.16.0",
-    "lint-staged": "^9.1.0",
+    "lint-staged": "^9.2.0",
     "prettier": "^1.18.2",
     "read-pkg": "^5.1.1",
     "semver": "^6.1.2"
