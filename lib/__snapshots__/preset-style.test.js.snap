@@ -113,6 +113,7 @@ Object {
   "git-pre-push": Array [
     [Function noop],
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
   "lint": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
@@ -206,6 +207,7 @@ Object {
   "git-pre-push": Array [
     [Function noop],
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
   "lint": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
@@ -216,6 +218,7 @@ Object {
   ],
   "prepublishOnly": Array [
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
 }
 `;
@@ -302,6 +305,7 @@ Object {
   "git-pre-push": Array [
     [Function noop],
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
   "lint": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
@@ -312,6 +316,7 @@ Object {
   ],
   "prepublishOnly": Array [
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
 }
 `;
@@ -429,6 +434,7 @@ Object {
   "git-pre-push": Array [
     [Function noop],
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
   "lint": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
@@ -439,6 +445,7 @@ Object {
   ],
   "prepublishOnly": Array [
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
 }
 `;
@@ -525,6 +532,7 @@ Object {
   "git-pre-push": Array [
     [Function noop],
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
   "lint": Array [
     "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
@@ -535,6 +543,7 @@ Object {
   ],
   "prepublishOnly": Array [
     "backtrack lint",
+    "prettier \\"**/*.{js,mjs,jsx,ts,tsx,json,scss,less,css,md,yml,yaml}\\" --check",
   ],
 }
 `;
