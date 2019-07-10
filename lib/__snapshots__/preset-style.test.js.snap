@@ -42,6 +42,7 @@ Object {
   "files": Object {
     "dest": Object {
       "absolute": Object {
+        ".editorconfig": "<PROJECT_ROOT>/.editorconfig",
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
         ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
@@ -50,6 +51,7 @@ Object {
         ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
       },
       "allowChanges": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -61,11 +63,13 @@ Object {
         ".huskyrc.js",
         ".eslintignore",
         ".prettierignore",
+        ".editorconfig",
         ".lintstagedrc.js",
         ".eslintrc.js",
         ".prettierrc.js",
       ],
       "ignoreUpdates": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -80,6 +84,7 @@ Object {
     ],
     "src": Object {
       "absolute": Object {
+        "lib/files/editorconfig": "<PROJECT_ROOT>/lib/files/editorconfig",
         "lib/files/eslint.js": "<PROJECT_ROOT>/lib/files/eslint.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
         "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
@@ -90,11 +95,13 @@ Object {
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
         "lib/files/ignore",
         "lib/files/ignore",
+        "lib/files/editorconfig",
         "lib/files/lint-staged.js",
         "lib/files/eslint.js",
         "lib/files/prettier.js",
       ],
       "hash": Object {
+        "lib/files/editorconfig": "0b9d5ddd3464226f6c635fce4d987914b5a03ffcfebb6425c7e91eb72bb0299f",
         "lib/files/eslint.js": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
         "lib/files/ignore": "73a2c88868e2d07e67d56a7678a7cff9b19d375996830bc055e5048a3a995c7f",
         "lib/files/lint-staged.js": "f7164bc680954569d44960627d963bfcc542cd9f7635a239b30ca077a5884abd",
@@ -136,6 +143,7 @@ Object {
   "files": Object {
     "dest": Object {
       "absolute": Object {
+        ".editorconfig": "<PROJECT_ROOT>/.editorconfig",
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
         ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
@@ -144,6 +152,7 @@ Object {
         ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
       },
       "allowChanges": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -155,11 +164,13 @@ Object {
         ".huskyrc.js",
         ".eslintignore",
         ".prettierignore",
+        ".editorconfig",
         ".lintstagedrc.js",
         ".eslintrc.js",
         ".prettierrc.js",
       ],
       "ignoreUpdates": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -174,6 +185,7 @@ Object {
     ],
     "src": Object {
       "absolute": Object {
+        "lib/files/editorconfig": "<PROJECT_ROOT>/lib/files/editorconfig",
         "lib/files/eslint-node.js": "<PROJECT_ROOT>/lib/files/eslint-node.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
         "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
@@ -184,11 +196,13 @@ Object {
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
         "lib/files/ignore",
         "lib/files/ignore",
+        "lib/files/editorconfig",
         "lib/files/lint-staged.js",
         "lib/files/eslint-node.js",
         "lib/files/prettier-es5.js",
       ],
       "hash": Object {
+        "lib/files/editorconfig": "0b9d5ddd3464226f6c635fce4d987914b5a03ffcfebb6425c7e91eb72bb0299f",
         "lib/files/eslint-node.js": "00aed0fb026ab32804ce28d202a5e8ff43d5ef238ab938774c34b19fd6c1047b",
         "lib/files/ignore": "73a2c88868e2d07e67d56a7678a7cff9b19d375996830bc055e5048a3a995c7f",
         "lib/files/lint-staged.js": "f7164bc680954569d44960627d963bfcc542cd9f7635a239b30ca077a5884abd",
@@ -234,6 +248,7 @@ Object {
   "files": Object {
     "dest": Object {
       "absolute": Object {
+        ".editorconfig": "<PROJECT_ROOT>/.editorconfig",
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
         ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
@@ -242,6 +257,7 @@ Object {
         ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
       },
       "allowChanges": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -253,11 +269,13 @@ Object {
         ".huskyrc.js",
         ".eslintignore",
         ".prettierignore",
+        ".editorconfig",
         ".lintstagedrc.js",
         ".eslintrc.js",
         ".prettierrc.js",
       ],
       "ignoreUpdates": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -272,6 +290,7 @@ Object {
     ],
     "src": Object {
       "absolute": Object {
+        "lib/files/editorconfig": "<PROJECT_ROOT>/lib/files/editorconfig",
         "lib/files/eslint-node.js": "<PROJECT_ROOT>/lib/files/eslint-node.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
         "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
@@ -282,11 +301,13 @@ Object {
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
         "lib/files/ignore",
         "lib/files/ignore",
+        "lib/files/editorconfig",
         "lib/files/lint-staged.js",
         "lib/files/eslint-node.js",
         "lib/files/prettier.js",
       ],
       "hash": Object {
+        "lib/files/editorconfig": "0b9d5ddd3464226f6c635fce4d987914b5a03ffcfebb6425c7e91eb72bb0299f",
         "lib/files/eslint-node.js": "00aed0fb026ab32804ce28d202a5e8ff43d5ef238ab938774c34b19fd6c1047b",
         "lib/files/ignore": "73a2c88868e2d07e67d56a7678a7cff9b19d375996830bc055e5048a3a995c7f",
         "lib/files/lint-staged.js": "f7164bc680954569d44960627d963bfcc542cd9f7635a239b30ca077a5884abd",
@@ -363,6 +384,7 @@ Object {
   "files": Object {
     "dest": Object {
       "absolute": Object {
+        ".editorconfig": "<PROJECT_ROOT>/.editorconfig",
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
         ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
@@ -371,6 +393,7 @@ Object {
         ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
       },
       "allowChanges": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -382,11 +405,13 @@ Object {
         ".huskyrc.js",
         ".eslintignore",
         ".prettierignore",
+        ".editorconfig",
         ".lintstagedrc.js",
         ".eslintrc.js",
         ".prettierrc.js",
       ],
       "ignoreUpdates": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -401,6 +426,7 @@ Object {
     ],
     "src": Object {
       "absolute": Object {
+        "lib/files/editorconfig": "<PROJECT_ROOT>/lib/files/editorconfig",
         "lib/files/eslint.js": "<PROJECT_ROOT>/lib/files/eslint.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
         "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
@@ -411,11 +437,13 @@ Object {
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
         "lib/files/ignore",
         "lib/files/ignore",
+        "lib/files/editorconfig",
         "lib/files/lint-staged.js",
         "lib/files/eslint.js",
         "lib/files/prettier.js",
       ],
       "hash": Object {
+        "lib/files/editorconfig": "0b9d5ddd3464226f6c635fce4d987914b5a03ffcfebb6425c7e91eb72bb0299f",
         "lib/files/eslint.js": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
         "lib/files/ignore": "73a2c88868e2d07e67d56a7678a7cff9b19d375996830bc055e5048a3a995c7f",
         "lib/files/lint-staged.js": "f7164bc680954569d44960627d963bfcc542cd9f7635a239b30ca077a5884abd",
@@ -461,6 +489,7 @@ Object {
   "files": Object {
     "dest": Object {
       "absolute": Object {
+        ".editorconfig": "<PROJECT_ROOT>/.editorconfig",
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.js": "<PROJECT_ROOT>/.eslintrc.js",
         ".huskyrc.js": "<PROJECT_ROOT>/.huskyrc.js",
@@ -469,6 +498,7 @@ Object {
         ".prettierrc.js": "<PROJECT_ROOT>/.prettierrc.js",
       },
       "allowChanges": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -480,11 +510,13 @@ Object {
         ".huskyrc.js",
         ".eslintignore",
         ".prettierignore",
+        ".editorconfig",
         ".lintstagedrc.js",
         ".eslintrc.js",
         ".prettierrc.js",
       ],
       "ignoreUpdates": Object {
+        ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.js": false,
         ".huskyrc.js": false,
@@ -499,6 +531,7 @@ Object {
     ],
     "src": Object {
       "absolute": Object {
+        "lib/files/editorconfig": "<PROJECT_ROOT>/lib/files/editorconfig",
         "lib/files/eslint.js": "<PROJECT_ROOT>/lib/files/eslint.js",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
         "lib/files/lint-staged.js": "<PROJECT_ROOT>/lib/files/lint-staged.js",
@@ -509,11 +542,13 @@ Object {
         "node_modules/@backtrack/preset-git-hooks/lib/files/husky.js",
         "lib/files/ignore",
         "lib/files/ignore",
+        "lib/files/editorconfig",
         "lib/files/lint-staged.js",
         "lib/files/eslint.js",
         "lib/files/prettier.js",
       ],
       "hash": Object {
+        "lib/files/editorconfig": "0b9d5ddd3464226f6c635fce4d987914b5a03ffcfebb6425c7e91eb72bb0299f",
         "lib/files/eslint.js": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
         "lib/files/ignore": "73a2c88868e2d07e67d56a7678a7cff9b19d375996830bc055e5048a3a995c7f",
         "lib/files/lint-staged.js": "f7164bc680954569d44960627d963bfcc542cd9f7635a239b30ca077a5884abd",
