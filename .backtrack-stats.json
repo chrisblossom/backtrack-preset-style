@@ -36,6 +36,7 @@
         "main": "lib/preset-style.js",
         "private": false,
         "scripts": {
+            "check.all": "backtrack check.all",
             "format": "backtrack format",
             "git-pre-commit": "backtrack git-pre-commit",
             "git-pre-push": "backtrack git-pre-push",
