@@ -2,6 +2,9 @@
 
 exports[`option: isApp = true 1`] = `
 Object {
+  "check.all": Array [
+    "backtrack lint",
+  ],
   "config": Array [
     Object {
       "prettier": Object {
@@ -123,6 +126,9 @@ Object {
 
 exports[`option: node = true 6+ 1`] = `
 Object {
+  "check.all": Array [
+    "backtrack lint",
+  ],
   "config": Array [
     Object {},
   ],
@@ -216,6 +222,9 @@ Object {
 
 exports[`option: node = true 8+ 1`] = `
 Object {
+  "check.all": Array [
+    "backtrack lint",
+  ],
   "config": Array [
     Object {},
   ],
@@ -309,6 +318,9 @@ Object {
 
 exports[`preset returns expected config no options 6+ 1`] = `
 Object {
+  "check.all": Array [
+    "backtrack lint",
+  ],
   "config": Array [
     Object {
       "prettier": Object {
@@ -433,6 +445,9 @@ Object {
 
 exports[`preset returns expected config no options 8+ 1`] = `
 Object {
+  "check.all": Array [
+    "backtrack lint",
+  ],
   "config": Array [
     Object {},
   ],
