@@ -27,28 +27,28 @@
 'use strict';
 
 module.exports = {
-    presets: ['@backtrack/style'],
+	presets: ['@backtrack/style'],
 
-    presets: [
-        [
-            '@backtrack/style',
-            {
-                /**
-                 * Disallow unsupported javascript syntax targeting
-                 *   the node version in package.json engines
-                 *
-                 * default: false
-                 */
-                node: true,
+	presets: [
+		[
+			'@backtrack/style',
+			{
+				/**
+				 * Disallow unsupported javascript syntax targeting
+				 *   the node version in package.json engines
+				 *
+				 * default: false
+				 */
+				node: true,
 
-                /**
-                 * Disable settings unnecessary in applications
-                 *
-                 * default: false
-                 */
-                isApp: true,
-            },
-        ],
-    ],
+				/**
+				 * Disable settings unnecessary in applications
+				 *
+				 * default: false
+				 */
+				isApp: true,
+			},
+		],
+	],
 };
 ```
