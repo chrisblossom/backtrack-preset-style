@@ -47,8 +47,8 @@
   },
   "dependencies": {
     "@backtrack/preset-git-hooks": "^0.2.2",
-    "@chrisblossom/eslint-config": "^6.0.10",
-    "eslint": "^5.16.0",
+    "@chrisblossom/eslint-config": "^7.0.0",
+    "eslint": "^6.8.0",
     "lint-staged": "^10.1.2",
     "prettier": "^1.18.2",
     "read-pkg": "^5.1.1",
