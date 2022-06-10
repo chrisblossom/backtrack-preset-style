@@ -18,6 +18,7 @@ package-lock.json
 .prettierrc.js
 .lintstagedrc.js
 .huskyrc.js
+.husky/_/
 __sandbox__
 .backtrack-stats.json
 wallaby.config.js
