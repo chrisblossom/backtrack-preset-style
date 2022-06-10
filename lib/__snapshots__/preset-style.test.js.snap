@@ -75,7 +75,7 @@ Object {
         "lib/files/prettier.js",
       ],
       "hash": Object {
-        "lib/files/editorconfig": "0b9d5ddd3464226f6c635fce4d987914b5a03ffcfebb6425c7e91eb72bb0299f",
+        "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint.js": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
         "lib/files/ignore": "3c23e8619439f90dda79cafa737ed89c0940cd82e7a8ea582c8cfc437fdfe92b",
         "lib/files/lint-staged.cjs": "f7164bc680954569d44960627d963bfcc542cd9f7635a239b30ca077a5884abd",
@@ -186,7 +186,7 @@ Object {
         "lib/files/prettier.js",
       ],
       "hash": Object {
-        "lib/files/editorconfig": "0b9d5ddd3464226f6c635fce4d987914b5a03ffcfebb6425c7e91eb72bb0299f",
+        "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint-node.js": "00aed0fb026ab32804ce28d202a5e8ff43d5ef238ab938774c34b19fd6c1047b",
         "lib/files/ignore": "3c23e8619439f90dda79cafa737ed89c0940cd82e7a8ea582c8cfc437fdfe92b",
         "lib/files/lint-staged.cjs": "f7164bc680954569d44960627d963bfcc542cd9f7635a239b30ca077a5884abd",
@@ -301,7 +301,7 @@ Object {
         "lib/files/prettier.js",
       ],
       "hash": Object {
-        "lib/files/editorconfig": "0b9d5ddd3464226f6c635fce4d987914b5a03ffcfebb6425c7e91eb72bb0299f",
+        "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint.js": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
         "lib/files/ignore": "3c23e8619439f90dda79cafa737ed89c0940cd82e7a8ea582c8cfc437fdfe92b",
         "lib/files/lint-staged.cjs": "f7164bc680954569d44960627d963bfcc542cd9f7635a239b30ca077a5884abd",
