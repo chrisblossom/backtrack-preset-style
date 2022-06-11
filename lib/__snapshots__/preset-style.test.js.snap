@@ -98,10 +98,10 @@ Object {
     "prettier \\"**/*\\" --ignore-unknown --check",
   ],
   "lint": Array [
-    "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
+    "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts .",
   ],
   "lint.fix": Array [
-    "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+    "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts --fix .",
     "prettier \\"**/*\\" --ignore-unknown --write",
   ],
   "resolve": Object {
@@ -209,10 +209,10 @@ Object {
     "prettier \\"**/*\\" --ignore-unknown --check",
   ],
   "lint": Array [
-    "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
+    "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts .",
   ],
   "lint.fix": Array [
-    "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+    "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts --fix .",
     "prettier \\"**/*\\" --ignore-unknown --write",
   ],
   "prepublishOnly": Array [
@@ -324,10 +324,10 @@ Object {
     "prettier \\"**/*\\" --ignore-unknown --check",
   ],
   "lint": Array [
-    "eslint --ext .js,.jsx,.mjs,.ts,.tsx .",
+    "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts .",
   ],
   "lint.fix": Array [
-    "eslint --ext .js,.jsx,.mjs,.ts,.tsx --fix .",
+    "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts --fix .",
     "prettier \\"**/*\\" --ignore-unknown --write",
   ],
   "prepublishOnly": Array [
