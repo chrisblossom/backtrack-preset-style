@@ -77,7 +77,7 @@ Object {
       "hash": Object {
         "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint.js": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
-        "lib/files/ignore": "30904a5ebbd16be084eafa3241917ac38118d162dc5546f44a7ad05979cf0d80",
+        "lib/files/ignore": "cc67305578620b791ded1c8aed0f3c39db17c4643c760d09408e18eadb1d7a37",
         "lib/files/lint-staged.cjs": "bc49af6b82be36d6b1ef246bd20ce41a5726b59701584ad6fc57ce28c8ea6785",
         "lib/files/prettier.cjs": "105ba088ab96fe3b965231970dc8db9904de34ff9a9febff5a071d8220b74701",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit": "e4add719772b9da7940f03a22d607f8c8c86a543b9260739f9a8143b89007597",
@@ -188,7 +188,7 @@ Object {
       "hash": Object {
         "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint-node.js": "00aed0fb026ab32804ce28d202a5e8ff43d5ef238ab938774c34b19fd6c1047b",
-        "lib/files/ignore": "30904a5ebbd16be084eafa3241917ac38118d162dc5546f44a7ad05979cf0d80",
+        "lib/files/ignore": "cc67305578620b791ded1c8aed0f3c39db17c4643c760d09408e18eadb1d7a37",
         "lib/files/lint-staged.cjs": "bc49af6b82be36d6b1ef246bd20ce41a5726b59701584ad6fc57ce28c8ea6785",
         "lib/files/prettier.cjs": "105ba088ab96fe3b965231970dc8db9904de34ff9a9febff5a071d8220b74701",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit": "e4add719772b9da7940f03a22d607f8c8c86a543b9260739f9a8143b89007597",
@@ -303,7 +303,7 @@ Object {
       "hash": Object {
         "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint.js": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
-        "lib/files/ignore": "30904a5ebbd16be084eafa3241917ac38118d162dc5546f44a7ad05979cf0d80",
+        "lib/files/ignore": "cc67305578620b791ded1c8aed0f3c39db17c4643c760d09408e18eadb1d7a37",
         "lib/files/lint-staged.cjs": "bc49af6b82be36d6b1ef246bd20ce41a5726b59701584ad6fc57ce28c8ea6785",
         "lib/files/prettier.cjs": "105ba088ab96fe3b965231970dc8db9904de34ff9a9febff5a071d8220b74701",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit": "e4add719772b9da7940f03a22d607f8c8c86a543b9260739f9a8143b89007597",

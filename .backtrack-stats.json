@@ -18,7 +18,7 @@
             ".np-config.js": "f1e82191dea83526e85a98a48c5b974b59e6e99293e864d0a1d02d5999e6a675",
             ".npmrc": "f535d8452d57a9d969bc54c2eaa831f3e20ccb5c3dbeeabc6f613d27a4b5a28a",
             ".prettierignore": "30904a5ebbd16be084eafa3241917ac38118d162dc5546f44a7ad05979cf0d80",
-            ".prettierrc.js": "3930e922bf830746fe8261727a5f49eea3b93bb891955e46b56c78f9b9bbdf12",
+            ".prettierrc.cjs": "105ba088ab96fe3b965231970dc8db9904de34ff9a9febff5a071d8220b74701",
             ".yarnrc": "feed5a1b1413c2d27507ed09e7d1c21fb40e0f8aca947c0620793b7e187e8ba4",
             "README.md": "ignoreUpdates",
             "appveyor.yml": "25e43fbd67f7d31b81155aca953154dc7a03f94adfb66be204ed0787d9ce5eb9",

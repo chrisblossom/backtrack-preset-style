@@ -50,8 +50,8 @@
 		"@chrisblossom/eslint-config": "^8.0.0",
 		"eslint": "^7.32.0",
 		"lint-staged": "^13.3.0",
-		"prettier": "^2.8.8",
-		"prettier-plugin-multiline-arrays": "^1.1.4",
-		"prettier-plugin-sh": "^0.12.8"
+		"prettier": "^3.0.3",
+		"prettier-plugin-multiline-arrays": "^3.0.0",
+		"prettier-plugin-sh": "^0.13.1"
 	}
 }
