@@ -17,7 +17,7 @@
 	"homepage": "https://github.com/chrisblossom/backtrack-preset-style",
 	"author": "Chris Blossom",
 	"engines": {
-		"node": ">=14.15.0"
+		"node": ">=18.12.0"
 	},
 	"files": [
 		"lib/"

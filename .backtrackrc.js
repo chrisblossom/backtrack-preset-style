@@ -5,6 +5,12 @@ const path = require('path');
 module.exports = {
 	presets: ['@backtrack/preset'],
 
+	packageJson: {
+		engines: {
+			node: '>=18.12.0',
+		},
+	},
+
 	config: {
 		// use local eslint config
 		eslint: () => ({
