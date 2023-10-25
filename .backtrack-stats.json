@@ -36,6 +36,7 @@
             "lib/"
         ],
         "main": "lib/preset-style.js",
+        "module": "commonjs",
         "private": false,
         "scripts": {
             "check.all": "backtrack check.all",
