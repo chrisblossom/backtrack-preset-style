@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`option: isApp = true 1`] = `
-Object {
-  "check.all": Array [
+{
+  "check.all": [
     "backtrack lint",
-    "prettier \\"**/*\\" --ignore-unknown --check",
+    "prettier "**/*" --ignore-unknown --check",
   ],
-  "files": Object {
-    "dest": Object {
-      "absolute": Object {
+  "files": {
+    "dest": {
+      "absolute": {
         ".editorconfig": "<PROJECT_ROOT>/.editorconfig",
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.cjs": "<PROJECT_ROOT>/.eslintrc.cjs",
@@ -18,7 +18,7 @@ Object {
         ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
         ".prettierrc.cjs": "<PROJECT_ROOT>/.prettierrc.cjs",
       },
-      "allowChanges": Object {
+      "allowChanges": {
         ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.cjs": false,
@@ -28,7 +28,7 @@ Object {
         ".prettierignore": false,
         ".prettierrc.cjs": false,
       },
-      "files": Array [
+      "files": [
         ".husky/pre-commit",
         ".husky/pre-push",
         ".eslintignore",
@@ -38,7 +38,7 @@ Object {
         ".eslintrc.cjs",
         ".prettierrc.cjs",
       ],
-      "ignoreUpdates": Object {
+      "ignoreUpdates": {
         ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.cjs": false,
@@ -49,13 +49,13 @@ Object {
         ".prettierrc.cjs": false,
       },
     },
-    "makeDirs": Array [
+    "makeDirs": [
       ".husky",
       "dist",
       "src",
     ],
-    "src": Object {
-      "absolute": Object {
+    "src": {
+      "absolute": {
         "lib/files/editorconfig": "<PROJECT_ROOT>/lib/files/editorconfig",
         "lib/files/eslint.cjs": "<PROJECT_ROOT>/lib/files/eslint.cjs",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
@@ -64,7 +64,7 @@ Object {
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-push": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/pre-push",
       },
-      "files": Array [
+      "files": [
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-push",
         "lib/files/ignore",
@@ -74,7 +74,7 @@ Object {
         "lib/files/eslint.cjs",
         "lib/files/prettier.cjs",
       ],
-      "hash": Object {
+      "hash": {
         "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint.cjs": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
         "lib/files/ignore": "cc67305578620b791ded1c8aed0f3c39db17c4643c760d09408e18eadb1d7a37",
@@ -85,26 +85,26 @@ Object {
       },
     },
   },
-  "format": Array [
-    "prettier \\"**/*\\" --ignore-unknown --write",
+  "format": [
+    "prettier "**/*" --ignore-unknown --write",
   ],
-  "git-pre-commit": Array [
+  "git-pre-commit": [
     [Function noop],
     "lint-staged",
   ],
-  "git-pre-push": Array [
+  "git-pre-push": [
     [Function noop],
     "backtrack lint",
-    "prettier \\"**/*\\" --ignore-unknown --check",
+    "prettier "**/*" --ignore-unknown --check",
   ],
-  "lint": Array [
+  "lint": [
     "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts .",
   ],
-  "lint.fix": Array [
+  "lint.fix": [
     "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts --fix .",
-    "prettier \\"**/*\\" --ignore-unknown --write",
+    "prettier "**/*" --ignore-unknown --write",
   ],
-  "resolve": Object {
+  "resolve": {
     "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
     "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
   },
@@ -112,14 +112,14 @@ Object {
 `;
 
 exports[`option: node = true 1`] = `
-Object {
-  "check.all": Array [
+{
+  "check.all": [
     "backtrack lint",
-    "prettier \\"**/*\\" --ignore-unknown --check",
+    "prettier "**/*" --ignore-unknown --check",
   ],
-  "files": Object {
-    "dest": Object {
-      "absolute": Object {
+  "files": {
+    "dest": {
+      "absolute": {
         ".editorconfig": "<PROJECT_ROOT>/.editorconfig",
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.cjs": "<PROJECT_ROOT>/.eslintrc.cjs",
@@ -129,7 +129,7 @@ Object {
         ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
         ".prettierrc.cjs": "<PROJECT_ROOT>/.prettierrc.cjs",
       },
-      "allowChanges": Object {
+      "allowChanges": {
         ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.cjs": false,
@@ -139,7 +139,7 @@ Object {
         ".prettierignore": false,
         ".prettierrc.cjs": false,
       },
-      "files": Array [
+      "files": [
         ".husky/pre-commit",
         ".husky/pre-push",
         ".eslintignore",
@@ -149,7 +149,7 @@ Object {
         ".eslintrc.cjs",
         ".prettierrc.cjs",
       ],
-      "ignoreUpdates": Object {
+      "ignoreUpdates": {
         ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.cjs": false,
@@ -160,13 +160,13 @@ Object {
         ".prettierrc.cjs": false,
       },
     },
-    "makeDirs": Array [
+    "makeDirs": [
       ".husky",
       "dist",
       "src",
     ],
-    "src": Object {
-      "absolute": Object {
+    "src": {
+      "absolute": {
         "lib/files/editorconfig": "<PROJECT_ROOT>/lib/files/editorconfig",
         "lib/files/eslint-node.cjs": "<PROJECT_ROOT>/lib/files/eslint-node.cjs",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
@@ -175,7 +175,7 @@ Object {
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-push": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/pre-push",
       },
-      "files": Array [
+      "files": [
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-push",
         "lib/files/ignore",
@@ -185,7 +185,7 @@ Object {
         "lib/files/eslint-node.cjs",
         "lib/files/prettier.cjs",
       ],
-      "hash": Object {
+      "hash": {
         "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint-node.cjs": "00aed0fb026ab32804ce28d202a5e8ff43d5ef238ab938774c34b19fd6c1047b",
         "lib/files/ignore": "cc67305578620b791ded1c8aed0f3c39db17c4643c760d09408e18eadb1d7a37",
@@ -196,30 +196,30 @@ Object {
       },
     },
   },
-  "format": Array [
-    "prettier \\"**/*\\" --ignore-unknown --write",
+  "format": [
+    "prettier "**/*" --ignore-unknown --write",
   ],
-  "git-pre-commit": Array [
+  "git-pre-commit": [
     [Function noop],
     "lint-staged",
   ],
-  "git-pre-push": Array [
+  "git-pre-push": [
     [Function noop],
     "backtrack lint",
-    "prettier \\"**/*\\" --ignore-unknown --check",
+    "prettier "**/*" --ignore-unknown --check",
   ],
-  "lint": Array [
+  "lint": [
     "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts .",
   ],
-  "lint.fix": Array [
+  "lint.fix": [
     "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts --fix .",
-    "prettier \\"**/*\\" --ignore-unknown --write",
+    "prettier "**/*" --ignore-unknown --write",
   ],
-  "prepublishOnly": Array [
+  "prepublishOnly": [
     "backtrack lint",
-    "prettier \\"**/*\\" --ignore-unknown --check",
+    "prettier "**/*" --ignore-unknown --check",
   ],
-  "resolve": Object {
+  "resolve": {
     "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
     "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
   },
@@ -227,14 +227,14 @@ Object {
 `;
 
 exports[`preset returns expected config no options 1`] = `
-Object {
-  "check.all": Array [
+{
+  "check.all": [
     "backtrack lint",
-    "prettier \\"**/*\\" --ignore-unknown --check",
+    "prettier "**/*" --ignore-unknown --check",
   ],
-  "files": Object {
-    "dest": Object {
-      "absolute": Object {
+  "files": {
+    "dest": {
+      "absolute": {
         ".editorconfig": "<PROJECT_ROOT>/.editorconfig",
         ".eslintignore": "<PROJECT_ROOT>/.eslintignore",
         ".eslintrc.cjs": "<PROJECT_ROOT>/.eslintrc.cjs",
@@ -244,7 +244,7 @@ Object {
         ".prettierignore": "<PROJECT_ROOT>/.prettierignore",
         ".prettierrc.cjs": "<PROJECT_ROOT>/.prettierrc.cjs",
       },
-      "allowChanges": Object {
+      "allowChanges": {
         ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.cjs": false,
@@ -254,7 +254,7 @@ Object {
         ".prettierignore": false,
         ".prettierrc.cjs": false,
       },
-      "files": Array [
+      "files": [
         ".husky/pre-commit",
         ".husky/pre-push",
         ".eslintignore",
@@ -264,7 +264,7 @@ Object {
         ".eslintrc.cjs",
         ".prettierrc.cjs",
       ],
-      "ignoreUpdates": Object {
+      "ignoreUpdates": {
         ".editorconfig": false,
         ".eslintignore": false,
         ".eslintrc.cjs": false,
@@ -275,13 +275,13 @@ Object {
         ".prettierrc.cjs": false,
       },
     },
-    "makeDirs": Array [
+    "makeDirs": [
       ".husky",
       "dist",
       "src",
     ],
-    "src": Object {
-      "absolute": Object {
+    "src": {
+      "absolute": {
         "lib/files/editorconfig": "<PROJECT_ROOT>/lib/files/editorconfig",
         "lib/files/eslint.cjs": "<PROJECT_ROOT>/lib/files/eslint.cjs",
         "lib/files/ignore": "<PROJECT_ROOT>/lib/files/ignore",
@@ -290,7 +290,7 @@ Object {
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-push": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib/files/pre-push",
       },
-      "files": Array [
+      "files": [
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-commit",
         "node_modules/@backtrack/preset-git-hooks/lib/files/pre-push",
         "lib/files/ignore",
@@ -300,7 +300,7 @@ Object {
         "lib/files/eslint.cjs",
         "lib/files/prettier.cjs",
       ],
-      "hash": Object {
+      "hash": {
         "lib/files/editorconfig": "c8e06355ec368086c1313bda19033a9e5d8a920d27dbf91a97fc509a0d2d8e3b",
         "lib/files/eslint.cjs": "fdb4499d6fbf4441b57b0e540a981c0db9f58023d756278d41d79a9292a544d2",
         "lib/files/ignore": "cc67305578620b791ded1c8aed0f3c39db17c4643c760d09408e18eadb1d7a37",
@@ -311,30 +311,30 @@ Object {
       },
     },
   },
-  "format": Array [
-    "prettier \\"**/*\\" --ignore-unknown --write",
+  "format": [
+    "prettier "**/*" --ignore-unknown --write",
   ],
-  "git-pre-commit": Array [
+  "git-pre-commit": [
     [Function noop],
     "lint-staged",
   ],
-  "git-pre-push": Array [
+  "git-pre-push": [
     [Function noop],
     "backtrack lint",
-    "prettier \\"**/*\\" --ignore-unknown --check",
+    "prettier "**/*" --ignore-unknown --check",
   ],
-  "lint": Array [
+  "lint": [
     "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts .",
   ],
-  "lint.fix": Array [
+  "lint.fix": [
     "eslint --ext .js,.jsx,.mjs,.cjs,.ts,.tsx,.mts,.cts --fix .",
-    "prettier \\"**/*\\" --ignore-unknown --write",
+    "prettier "**/*" --ignore-unknown --write",
   ],
-  "prepublishOnly": Array [
+  "prepublishOnly": [
     "backtrack lint",
-    "prettier \\"**/*\\" --ignore-unknown --check",
+    "prettier "**/*" --ignore-unknown --check",
   ],
-  "resolve": Object {
+  "resolve": {
     "@backtrack/preset-git-hooks": "<PROJECT_ROOT>/node_modules/@backtrack/preset-git-hooks/lib",
     "@backtrack/preset-style": "<PROJECT_ROOT>/lib",
   },

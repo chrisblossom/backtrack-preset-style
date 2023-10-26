@@ -5,13 +5,6 @@ const path = require('path');
 module.exports = {
 	presets: ['@backtrack/preset'],
 
-	packageJson: {
-		module: 'commonjs',
-		engines: {
-			node: '>=18.12.0',
-		},
-	},
-
 	config: {
 		// use local eslint config
 		eslint: () => ({
@@ -31,11 +24,5 @@ module.exports = {
 
 	files: [
 		{ src: 'lib/files/prettier.cjs', dest: '.prettierrc.cjs' },
-		{
-			skip: ['.prettierrc.js'],
-			allowChanges: [
-				'.prettierignore',
-			],
-		},
 	],
 };
