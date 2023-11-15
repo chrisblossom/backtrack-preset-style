@@ -44,14 +44,14 @@
 	},
 	"devDependencies": {
 		"@backtrack/core": "^0.2.1",
-		"@backtrack/preset-preset": "^0.9.0"
+		"@backtrack/preset-preset": "^0.9.1"
 	},
 	"dependencies": {
 		"@backtrack/preset-git-hooks": "^0.4.0",
-		"@chrisblossom/eslint-config": "^10.0.1",
-		"eslint": "^8.52.0",
-		"lint-staged": "^15.0.2",
-		"prettier": "^3.0.3",
+		"@chrisblossom/eslint-config": "^11.0.0",
+		"eslint": "^8.53.0",
+		"lint-staged": "^15.1.0",
+		"prettier": "^3.1.0",
 		"prettier-plugin-multiline-arrays": "^3.0.0",
 		"prettier-plugin-sh": "^0.13.1"
 	}
